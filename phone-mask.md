@@ -29,8 +29,6 @@ A simple yet powerfull JavaScript class for formatting and validating phone numb
 To use PhoneNumberMask, create a new instance and pass the input element or selector, and options (optional):
 
 ```javascript
-import PhoneNumberMask from 'phone-number-mask';
-
 const phoneNumberMask = new PhoneNumberMask('#phone-number', {
   masks: ['(##) #####-####'],
   messages: {
